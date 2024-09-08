@@ -1,9 +1,0 @@
-outDir: dist
-installCommand: npm ci
-buildCommand: npm run build
-preBuildCommands:
-  - echo "Starting pre-build tasks..."
-  - rm -rf dist
-postBuildCommands:
-  - echo "Post-build tasks..."
-  - npm run lint
